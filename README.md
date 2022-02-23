@@ -1,82 +1,48 @@
 # Customer-Churn-Telecom
-Predict which customer will get churn from Telecom Industry
-*Instructions: Click on the raw button in the upper right hand corner of this box.  Copy and paste the template into the README.md document on your github.  Fill in the titles, information and links where prompted! Feel free to stray a bit to suit your project but try to stick to the format as closely as possible for consistency across DSWG projects.*
 
 # Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
+This project is a part of the Customer-Churn-Telecom in which I am Predicting will customer get churn from Telecom Industry. 
 
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to let Telecom Industry know which customers are loyal and which are customers will likely get churn. The dataset consists of customer details such as age, income, monthly payment, debt ratio by analysing these variables need to predict the target variable churn.
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+### Contributions
+* Personal Project
+
 
 ### Methods Used
+* Data Cleaning
 * Inferential Statistics
+* Data Sampling
 * Machine Learning
-* Data Visualization
 * Predictive Modeling
-* etc.
+
 
 ### Technologies
-* R 
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Python, jupyter
+* Pandas, Numpy
+* Sklearn
+* scipy
+* RandomForest
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+This is the first Data Science Project for me where I did EDA on the dependent variables like droped the duplicate variables, reset index, visualize boxplot, find the missing values on a dataset consisting of almost 150k entries with 8 columns. 
+   
+
 
 ## Needs of this project
-
-- frontend developers
 - data exploration/descriptive statistics
 - data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+- predictive modeling
+
+
 
 ## Getting Started
+Resampled the dataset so as to make the sample size of churn equal and to obtain better accuracy. 
+Normalised the resampled data by min-max scaler or standerd scaler to otain consistancy throughout the data.
+Checked if the dependent variables are correlated with the target variable and split the data to train and test.
+Applied RandomForest Classifier as the target variable was categorical and evaluated the matrices with confusion matrics.
+Performed Cross-validation on the machine learning model and predicted an accuracy of 99.16%.
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
-
-## Contributing DSWG Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!

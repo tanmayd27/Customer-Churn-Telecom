@@ -40,9 +40,9 @@ This is the first Data Science Project for me where I did EDA on the dependent v
 
 
 ## Getting Started
-Resampled the dataset so as to make the sample size of churn equal and to obtain better accuracy. 
-Normalised the resampled data by min-max scaler or standerd scaler to otain consistancy throughout the data.
-Checked if the dependent variables are correlated with the target variable and split the data to train and test.
-Applied RandomForest Classifier as the target variable was categorical and evaluated the matrices with confusion matrics.
-Performed Cross-validation on the machine learning model and predicted an accuracy of 99.16%.
+*Resampled the dataset so as to make the sample size of churn equal and to obtain better accuracy. 
+*Normalised the resampled data by min-max scaler or standerd scaler to otain consistancy throughout the data.
+*Checked if the dependent variables are correlated with the target variable and split the data to train and test.
+*Applied RandomForest Classifier as the target variable was categorical and evaluated the matrices with confusion matrics.
+*Performed Cross-validation on the machine learning model and predicted an accuracy of 99.16%.
 
